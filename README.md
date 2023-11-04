@@ -12,7 +12,7 @@ Each project is contained in its respective directory. To get started with a spe
 List any prerequisites or dependencies required to run the projects, including but not limited to:
 
 - Java JDK [21 LTS]
-- Maven [version]
+- Maven 
 - Eclipse IDE for Java and Web Enterprise Version
 
 
