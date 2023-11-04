@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+                
+    <bean class="com.demo.customer" name="cust">
+    <!-- adding constructor dependency for the customer class -->
+    <constructor-arg value="10" type = "int"></constructor-arg>
+    <constructor-arg value="Ujjwal"></constructor-arg>
+    <constructor-arg value="ujjwal@gmail.com"></constructor-arg>
+    </bean>
+    
+    <bean class="com.demo.order" name="order" id="oid">
+    <constructor-arg value="101" type="int"></constructor-arg>
+    <constructor-arg value="This order for  Ujjwal"></constructor-arg>
+    </bean>
+ </beans>
